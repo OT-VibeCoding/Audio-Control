@@ -1,4 +1,4 @@
-# Audio Control (Audio Sidebar)
+# オーディオコントロール (Audio-Control)
 
 Windows 11 のクイック設定「音声出力」フライアウトを参考にした、タスクトレイ常駐型のオーディオコントローラーです。
 画面の右端にマウスを当てるとパネルがスライド表示され、出力デバイスの切り替えや音量の調整がすぐにできます。
@@ -79,3 +79,16 @@ py audio_sidebar.py --check
 ## 変更履歴
 
 `audio_sidebar.py` 冒頭の CHANGELOG を参照してください。
+
+## 開発
+
+```bash
+py -m pip install -r requirements.txt
+py audio_sidebar.py --check
+```
+
+このアプリはClaude(Anthropic)と対話しながら設計・実装しました。
+
+## ライセンス
+
+MIT
